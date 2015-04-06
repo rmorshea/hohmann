@@ -1,9 +1,9 @@
 ##Hohmann module Overview
 
 Displays Hohmann transfer orbits using
-(`poliastro`)[http://pybonacci.github.io/poliastro/ "poliastro homepage"]),
-(`astropy`)[http://www.astropy.org/ "astropy homepage"]),
-and the (`Ipython Notebook`)[http://ipython.org/documentation.html] "notebook documentation").
+(poliastro)[http://pybonacci.github.io/poliastro/ "poliastro homepage"]),
+(astropy)[http://www.astropy.org/ "astropy homepage"]),
+and the (Ipython Notebook)[http://ipython.org/documentation.html] "notebook documentation").
 
 ##Istallation
 

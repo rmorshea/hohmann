@@ -11,7 +11,7 @@ Clone this repo onto your local computer:
 
 ```$ git clone https://github.com/rmorshea/hohmann```
 
-cd into `hohmann/` and create a new notebook and import:
+cd into `hohmann/`, then create a new notebook and import:
 
 ```import hohmann```
 

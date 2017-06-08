@@ -15,6 +15,6 @@ cd into `hohmann/`, then create a new notebook and import:
 
 ```import hohmann```
 
-##Usage
+# Usage
 
 See `HohmannTransfer.ipynb` for an example.

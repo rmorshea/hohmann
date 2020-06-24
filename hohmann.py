@@ -6,14 +6,12 @@ from poliastro.maneuver import Maneuver
 from IPython.html import widgets
 
 def hoh_data(hoh):
-    data = {'transfer time' : hoh.get_total_time().to(u.yr),
+    return {'transfer time' : hoh.get_total_time().to(u.yr),
             'delta v' : hoh.get_total_cost()}
-    return data
 
 def ss_data(state):
-    data = {'period' : state.period.to(u.day),
+    return {'period' : state.period.to(u.day),
             'velocity' : abs(state.v[1])}
-    return data
 
 def create_states(attractor, rad_init, rad_final, unit):
 	ssi = State.circular(attractor, alt=rad_init.value*unit)
